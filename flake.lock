@@ -3,76 +3,61 @@
     "GSL": {
       "flake": false,
       "locked": {
-        "lastModified": 1729523977,
-        "narHash": "sha256-aWbvjaW7BHF1nYZbhPdBQ2b/UQJOObQSZVuDrJxSIcE=",
-        "rev": "87f9d768866548b5b86e72be66c60c5abd4d9b37",
-        "revCount": 991,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/GSL"
+        "narHash": "sha256-+AVXl3H3oYh0sAK/ripPOWoEszhFooe1hcGfmd0Qnrs=",
+        "type": "file",
+        "url": "https://github.com/Microsoft/GSL.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/GSL"
+        "type": "file",
+        "url": "https://github.com/Microsoft/GSL.git"
       }
     },
     "QR": {
       "flake": false,
       "locked": {
-        "lastModified": 1650168891,
-        "narHash": "sha256-aci5SFBRNRrSub4XVJ2luHNZ2pAUegjgQ6pD9kpkaTY=",
-        "rev": "720f62bddb7226106071d4728c292cb1df519ceb",
-        "revCount": 816,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/QR"
+        "narHash": "sha256-K3vo0mjoHwc2Oog44l64iHnyPBHJlIu0fYEWwk/FYko=",
+        "type": "file",
+        "url": "https://github.com/nayuki/QR-Code-generator"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/QR"
+        "type": "file",
+        "url": "https://github.com/nayuki/QR-Code-generator"
       }
     },
     "cld3": {
       "flake": false,
       "locked": {
-        "lastModified": 1648685455,
-        "narHash": "sha256-C3MOMBUy9jgkT9BAi/Fgm2UH4cxRuwSBEcRl3hzM2Ss=",
-        "rev": "b48dc46512566f5a2d41118c8c1116c4f96dc661",
-        "revCount": 128,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/cld3"
+        "narHash": "sha256-0oL1gze47Zt1kURWrL8yjne9KmLCsp5e28MrIccupUs=",
+        "type": "file",
+        "url": "https://github.com/google/cld3.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/cld3"
+        "type": "file",
+        "url": "https://github.com/google/cld3.git"
       }
     },
     "cmake": {
       "flake": false,
       "locked": {
-        "lastModified": 1741588498,
-        "narHash": "sha256-eSAxd3gBB172G65UW4ok1I8RuknZSdYzK1l/r5sC/1Y=",
-        "rev": "90e6d73100a9fd2dc4c30a270c3bbc1d35924f32",
-        "revCount": 662,
-        "type": "git",
-        "url": "file:./cmake"
+        "narHash": "sha256-AU69dtLWUbjh/EABbkiy5qocEZk5xxjnsB9wrHa1W6o=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/cmake_helpers.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./cmake"
+        "type": "file",
+        "url": "https://github.com/desktop-app/cmake_helpers.git"
       }
     },
     "codegen": {
       "flake": false,
       "locked": {
-        "lastModified": 1728632710,
-        "narHash": "sha256-KogLki1mF1gjp97Wry0iaem/JsUoShGGHHlmS6LOhcA=",
-        "rev": "4155b9ae2d4c5a37b9738afa8ef9fa20d8fdcb44",
-        "revCount": 70,
-        "type": "git",
-        "url": "file:./Telegram/codegen"
+        "narHash": "sha256-OClMgSG/mIHzmgrTzhunv4g9Et/1YiDa/W7lZc0WNa8=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/codegen.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/codegen"
+        "type": "file",
+        "url": "https://github.com/desktop-app/codegen.git"
       }
     },
     "devshell": {
@@ -96,46 +81,37 @@
     "dispatch": {
       "flake": false,
       "locked": {
-        "lastModified": 1718237582,
-        "narHash": "sha256-S7+fsygaYx5vmdjr5999q7eggNGfFG7ObebMSZuIapk=",
-        "rev": "542b7f32311680b11b6fc8fcb2576955460ba7da",
-        "revCount": 1526,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/dispatch"
+        "narHash": "sha256-+dcfRFS/MkjOuGysxnwon683+N7o+bIl6zFCRR+VILw=",
+        "type": "file",
+        "url": "https://github.com/apple/swift-corelibs-libdispatch"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/dispatch"
+        "type": "file",
+        "url": "https://github.com/apple/swift-corelibs-libdispatch"
       }
     },
     "expected": {
       "flake": false,
       "locked": {
-        "lastModified": 1678876099,
-        "narHash": "sha256-AuRU8VI5l7Th9fJ5jIc/6mPm0Vqbbt6rY8QCCNDOU50=",
-        "rev": "292eff8bd8ee230a7df1d6a1c00c4ea0eb2f0362",
-        "revCount": 226,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/expected"
+        "narHash": "sha256-yL7dO7Tcuo/YnKa+9D8zXbAxJgvBeIj4d9erNJ11znE=",
+        "type": "file",
+        "url": "https://github.com/TartanLlama/expected"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/expected"
+        "type": "file",
+        "url": "https://github.com/TartanLlama/expected"
       }
     },
-    "fcitx5_qt": {
+    "fcitx5-qt": {
       "flake": false,
       "locked": {
-        "lastModified": 1713772689,
-        "narHash": "sha256-ptAJNc7zhXQ+nFfjmVQd5nZvN5lyk0jV6AHBKQkUGOM=",
-        "rev": "c743b12e6780edf1dcfe9071531c80f050cacb95",
-        "revCount": 391,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/fcitx5-qt"
+        "narHash": "sha256-Nzqb2yhIbxi5RT+m9Dz9cDcMcpWRThPc0Si+oAbHeEk=",
+        "type": "file",
+        "url": "https://github.com/fcitx/fcitx5-qt.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/fcitx5-qt"
+        "type": "file",
+        "url": "https://github.com/fcitx/fcitx5-qt.git"
       }
     },
     "flake-utils": {
@@ -159,301 +135,241 @@
     "hime": {
       "flake": false,
       "locked": {
-        "lastModified": 1635042458,
-        "narHash": "sha256-Dgnp+8gMX2/gYFFzk3574/aKAxsMVMp/+HjBCAbFKK0=",
-        "rev": "9b3e6f9ab59d1fe4d9de73d3bf0fed7789f921c5",
-        "revCount": 1273,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/hime"
+        "narHash": "sha256-S1xeILbGvFBh1kQJQ55+gxzqRl4ylwAB8RR3m9DKF9M=",
+        "type": "file",
+        "url": "https://github.com/hime-ime/hime.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/hime"
+        "type": "file",
+        "url": "https://github.com/hime-ime/hime.git"
       }
     },
     "hunspell": {
       "flake": false,
       "locked": {
-        "lastModified": 1702223616,
-        "narHash": "sha256-xbSg6EdZ57wVwZ+vvaA4lFrmawxhgepf3PzXRqSyLho=",
-        "rev": "22c3381e2066bed616250d373fc5c935598b564a",
-        "revCount": 1627,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/hunspell"
+        "narHash": "sha256-+yzSNKZo1eHuT+awc8v2g6ywc1y+0J28NnXWkeSnkEU=",
+        "type": "file",
+        "url": "https://github.com/hunspell/hunspell"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/hunspell"
+        "type": "file",
+        "url": "https://github.com/hunspell/hunspell"
       }
     },
     "jemalloc": {
       "flake": false,
       "locked": {
-        "lastModified": 1651861705,
-        "narHash": "sha256-bb0OhZVXyvN+hf9BpPSykn5cGm87a0C+Y/iXKt9wTSs=",
-        "rev": "54eaed1d8b56b1aa528be3bdd1877e59c56fa90c",
-        "revCount": 3282,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/jemalloc"
+        "narHash": "sha256-cIUC3muA3FGqYCEx4XSQlIF77asN4i1yR/6I18c+ahs=",
+        "type": "file",
+        "url": "https://github.com/jemalloc/jemalloc"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/jemalloc"
+        "type": "file",
+        "url": "https://github.com/jemalloc/jemalloc"
       }
     },
     "kcoreaddons": {
       "flake": false,
       "locked": {
-        "lastModified": 1714822702,
-        "narHash": "sha256-I8eqyRDWVdj71SJ9OQTTNNedQyZM8BTmXHOOQS0czWg=",
-        "rev": "fd84da51b554eac25e35b1e3f373edaab3029b15",
-        "revCount": 1832,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/kcoreaddons"
+        "narHash": "sha256-O9Bzf5EC5ZZYFM6AJy69hwkuG2Sqv0P8RyLm7oL2/bw=",
+        "type": "file",
+        "url": "https://github.com/KDE/kcoreaddons.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/kcoreaddons"
+        "type": "file",
+        "url": "https://github.com/KDE/kcoreaddons.git"
       }
     },
     "kimageformats": {
       "flake": false,
       "locked": {
-        "lastModified": 1733161270,
-        "narHash": "sha256-6VBnKiSII+/kz4WbXoV33uF69/MOmg0LMqlmFSq+X10=",
-        "rev": "df82311a1081e576c4ac020204578bb8a81b21ec",
-        "revCount": 536,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/kimageformats"
+        "narHash": "sha256-Z7ocYoTrbsCGBln8baF4ykbRXszsNtY/TP/7WM+TeK4=",
+        "type": "file",
+        "url": "https://github.com/KDE/kimageformats.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/kimageformats"
+        "type": "file",
+        "url": "https://github.com/KDE/kimageformats.git"
       }
     },
     "lib_base": {
       "flake": false,
       "locked": {
-        "lastModified": 1743762155,
-        "narHash": "sha256-tgMBLYbZnJpCq6otUQ5fMSMcOipNEUoC+1GhrUukIvk=",
-        "rev": "720eaf44a529da50f5277fd6874318d9a08b735a",
-        "revCount": 658,
-        "type": "git",
-        "url": "file:./Telegram/lib_base"
+        "narHash": "sha256-6oxAxYzAy33NDwjUh1i+DaZgLOrST9qP4wbjv27hVa8=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_base.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_base"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_base.git"
       }
     },
     "lib_crl": {
       "flake": false,
       "locked": {
-        "lastModified": 1721204705,
-        "narHash": "sha256-lI/Y8rTUsIAiNyyWk5EyQb/HyMrNgZ+QCH05zRgetus=",
-        "rev": "c1d6b0273653095b10b4d0f4f7c30b614b690fd5",
-        "revCount": 31,
-        "type": "git",
-        "url": "file:./Telegram/lib_crl"
+        "narHash": "sha256-zzh3t2lzFVs57TJhL6/KzXWjGCQG1NGausqPNZFDHkc=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_crl.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_crl"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_crl.git"
       }
     },
     "lib_lottie": {
       "flake": false,
       "locked": {
-        "lastModified": 1739899634,
-        "narHash": "sha256-vJt9dBhC+uACQV+LySfycYbJYaBOcsFLvs9ycK9eTxM=",
-        "rev": "3eb4a97f1dd038bc4b6bd2884262242382a37e79",
-        "revCount": 67,
-        "type": "git",
-        "url": "file:./Telegram/lib_lottie"
+        "narHash": "sha256-5aoHpygVp+BCn93Axnq27ezX+HT2x8+O2tnu04apSVw=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_lottie.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_lottie"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_lottie.git"
       }
     },
     "lib_qr": {
       "flake": false,
       "locked": {
-        "lastModified": 1725658314,
-        "narHash": "sha256-fMLjGZj9iuz0F5O8bwmj827fw1GAsXIm2pa4KTcetsQ=",
-        "rev": "6fdf60461444ba150e13ac36009c0ffce72c4c83",
-        "revCount": 11,
-        "type": "git",
-        "url": "file:./Telegram/lib_qr"
+        "narHash": "sha256-41tbxdY3PUK6BlazosxXl6T4gXIdHarXgn9Dq1QtyCY=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_qr.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_qr"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_qr.git"
       }
     },
     "lib_rpl": {
       "flake": false,
       "locked": {
-        "lastModified": 1731073159,
-        "narHash": "sha256-eqMcYgH/oz7FFqWX5CeGM2CLuHUgZQctnmXB0EIk6Ak=",
-        "rev": "9a3ce435f4054e6cbd45e1c6e3e27cfff515c829",
-        "revCount": 22,
-        "type": "git",
-        "url": "file:./Telegram/lib_rpl"
+        "narHash": "sha256-/7r9yJdoJly40K5jMSsLPx6/NiRCbvd+JBWMRXQLTsg=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_rpl.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_rpl"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_rpl.git"
       }
     },
     "lib_spellcheck": {
       "flake": false,
       "locked": {
-        "lastModified": 1739205521,
-        "narHash": "sha256-KlgY20bRbdCLscGfkpGl8yf4yd+7ehEb08glkfs+s38=",
-        "rev": "8809cc72d07087ec61a1e8569de4da95aac45474",
-        "revCount": 233,
-        "type": "git",
-        "url": "file:./Telegram/lib_spellcheck"
+        "narHash": "sha256-rNdvR6UFlqh56BHiFDekHXWq3Jf3S/zbcibW+vjDLt0=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_spellcheck"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_spellcheck"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_spellcheck"
       }
     },
     "lib_storage": {
       "flake": false,
       "locked": {
-        "lastModified": 1720328496,
-        "narHash": "sha256-kQ8ZMGZf3zPovUk+R/QYEmL0fFlGAVzG+PP+VlKPISw=",
-        "rev": "ccdc72548a5065b5991b4e06e610d76bc4f6023e",
-        "revCount": 26,
-        "type": "git",
-        "url": "file:./Telegram/lib_storage"
+        "narHash": "sha256-650jOPhyUFJR1FGZ0H0pEA7v8gVdl36fWbk6KFr8iz0=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_storage.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_storage"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_storage.git"
       }
     },
     "lib_tl": {
       "flake": false,
       "locked": {
-        "lastModified": 1725003049,
-        "narHash": "sha256-lYWRfutRNeBmDrL6oik9MU7BXvneUv+0ncl54q9/I8o=",
-        "rev": "237cbeb9d1c637759f89a508c1d854caf16e1984",
-        "revCount": 43,
-        "type": "git",
-        "url": "file:./Telegram/lib_tl"
+        "narHash": "sha256-R/ycxvf5s8OYI9SktRT7z/r4dLZ1d+9PGvxnC0U+kms=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_tl.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_tl"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_tl.git"
       }
     },
     "lib_ui": {
       "flake": false,
       "locked": {
-        "lastModified": 1742974055,
-        "narHash": "sha256-BeP6354ZnW8hVCFphu4iI+wCHrndDYfcvKm7Ml2/IMk=",
-        "rev": "a42f0b789c860289adc0b35b65e97bf002f932f1",
-        "revCount": 1600,
-        "type": "git",
-        "url": "file:./Telegram/lib_ui"
+        "narHash": "sha256-ecQ+RaKYQZu6Sek3IER39sdoNOkvJb+ZOAEPbL21fVA=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_ui.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_ui"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_ui.git"
       }
     },
     "lib_webrtc": {
       "flake": false,
       "locked": {
-        "lastModified": 1730792258,
-        "narHash": "sha256-EqQmaq10sZBQBqwKj+mMbyWu84eKKMlirkkK5BsmAnY=",
-        "rev": "169ba6b1d5e58e9d1cfa7b7d5c85c119e6c6e2db",
-        "revCount": 109,
-        "type": "git",
-        "url": "file:./Telegram/lib_webrtc"
+        "narHash": "sha256-8dJqt3Ojqamm/u5hklveEKv805UoSLCIFTc6gtJTsXU=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_webrtc.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_webrtc"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_webrtc.git"
       }
     },
     "lib_webview": {
       "flake": false,
       "locked": {
-        "lastModified": 1740570785,
-        "narHash": "sha256-fKu65EdB+QvJkV9/Ap4xlslhPWAXmcU0LZ7It6lxFZ0=",
-        "rev": "f546969919a5946d49a504f8159041fa5b55c3df",
-        "revCount": 237,
-        "type": "git",
-        "url": "file:./Telegram/lib_webview"
+        "narHash": "sha256-E41tXajtPx3wgPJxsutp9cUTWO7EHNFGY+BUaCXKgLU=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_webview.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/lib_webview"
+        "type": "file",
+        "url": "https://github.com/desktop-app/lib_webview.git"
       }
     },
     "libprisma": {
       "flake": false,
       "locked": {
-        "lastModified": 1713188168,
-        "narHash": "sha256-r6nnuNGeWER4EfU+NjJGifWqCeZzu7oMOMMdOSPp5Dk=",
-        "rev": "23b0d70f9709da9b38561d5706891a134d18df76",
-        "revCount": 17,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/libprisma"
+        "narHash": "sha256-PtSAqb0RHW38GLFvo4XnERsS+Ml0HiYIAfWfTzAXoKc=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/libprisma.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/libprisma"
+        "type": "file",
+        "url": "https://github.com/desktop-app/libprisma.git"
       }
     },
     "libtgvoip": {
       "flake": false,
       "locked": {
-        "lastModified": 1720257778,
-        "narHash": "sha256-DbOVRj3ao+l/Ny1Mn06nS4gqqKB3fU1h4iG2DgZzyxQ=",
-        "rev": "2d2592860478e60d972b96e67ee034b8a71bb57a",
-        "revCount": 339,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/libtgvoip"
+        "narHash": "sha256-wcPlye2dp1Zukw+D+YylyEf1H9+gYtfz+5d4D5csZIk=",
+        "type": "file",
+        "url": "https://github.com/telegramdesktop/libtgvoip"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/libtgvoip"
+        "type": "file",
+        "url": "https://github.com/telegramdesktop/libtgvoip"
       }
     },
     "lz4": {
       "flake": false,
       "locked": {
-        "lastModified": 1660603531,
-        "narHash": "sha256-YiMCD3vvrG+oxBUghSrCmP2LAfAGZrEaKz0YoaQJhpI=",
-        "rev": "5ff839680134437dbf4678f3d0c7b371d84f4964",
-        "revCount": 2867,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/lz4"
+        "narHash": "sha256-Gl3ZIrm64EEXBkYR4+NqXD7gSbtV3M6F1q3bAJ3kEfk=",
+        "type": "file",
+        "url": "https://github.com/lz4/lz4.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/lz4"
+        "type": "file",
+        "url": "https://github.com/lz4/lz4.git"
       }
     },
     "nimf": {
       "flake": false,
       "locked": {
-        "lastModified": 1718357103,
-        "narHash": "sha256-cJfIaG5cqpBshO8EH7U93ZSR9NGweJqSUToFy0SAXnc=",
-        "rev": "498ec7ffab3ac140c2469638a14451788f03e798",
-        "revCount": 1082,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/nimf"
+        "narHash": "sha256-FAsFqfNZ/UMPCDNDGzSinFWuN+HXuhyS4dB0G0UPvfQ=",
+        "type": "file",
+        "url": "https://github.com/hamonikr/nimf.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/nimf"
+        "type": "file",
+        "url": "https://github.com/hamonikr/nimf.git"
       }
     },
     "nixpkgs": {
@@ -487,34 +403,28 @@
         "type": "indirect"
       }
     },
-    "range_v3": {
+    "range-v3": {
       "flake": false,
       "locked": {
-        "lastModified": 1655847311,
-        "narHash": "sha256-H8juKleiN/27b5zKl7o310ZUwwmmpr4cUJuJRMgXK4Y=",
-        "rev": "a81477931a8aa2ad025c6bda0609f38e09e4d7ec",
-        "revCount": 2494,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/range-v3"
+        "narHash": "sha256-x6/XXoXLPBbpTLXPF65OlyzPI6hbSLuaZXCjLRKLI4E=",
+        "type": "file",
+        "url": "https://github.com/ericniebler/range-v3.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/range-v3"
+        "type": "file",
+        "url": "https://github.com/ericniebler/range-v3.git"
       }
     },
     "rlottie": {
       "flake": false,
       "locked": {
-        "lastModified": 1637941077,
-        "narHash": "sha256-kRhKe/ZXLrcbDwoELdLkDc1Lqtsgl26rT711Y/V4/JE=",
-        "rev": "8c69fc20cf2e150db304311f1233a4b55a8892d7",
-        "revCount": 678,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/rlottie"
+        "narHash": "sha256-lIeTn72QAqKV83f7Dm9Pdy5fGEzbHB5Tt+gWtCgvu7Y=",
+        "type": "file",
+        "url": "https://github.com/desktop-app/rlottie.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/rlottie"
+        "type": "file",
+        "url": "https://github.com/desktop-app/rlottie.git"
       }
     },
     "root": {
@@ -527,7 +437,7 @@
         "devshell": "devshell",
         "dispatch": "dispatch",
         "expected": "expected",
-        "fcitx5_qt": "fcitx5_qt",
+        "fcitx5-qt": "fcitx5-qt",
         "flake-utils": "flake-utils",
         "hime": "hime",
         "hunspell": "hunspell",
@@ -550,10 +460,10 @@
         "lz4": "lz4",
         "nimf": "nimf",
         "nixpkgs": "nixpkgs_2",
-        "range_v3": "range_v3",
+        "range-v3": "range-v3",
         "rlottie": "rlottie",
         "tgcalls": "tgcalls",
-        "xdg_desktop_portal": "xdg_desktop_portal",
+        "xdg-desktop-portal": "xdg-desktop-portal",
         "xxHash": "xxHash"
       }
     },
@@ -575,46 +485,37 @@
     "tgcalls": {
       "flake": false,
       "locked": {
-        "lastModified": 1722059009,
-        "narHash": "sha256-1buPF7wRdorEM5m4YpH4kaUhzWsDuG5Si1kiHoIaptw=",
-        "rev": "9bf4065ea00cbed5e63cec348457ed13143459d0",
-        "revCount": 1007,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/tgcalls"
+        "narHash": "sha256-4RCWrkmk89hhea+Lx8tjNdDO7SABaHGirJUeG5v77WY=",
+        "type": "file",
+        "url": "https://github.com/TelegramMessenger/tgcalls.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/tgcalls"
+        "type": "file",
+        "url": "https://github.com/TelegramMessenger/tgcalls.git"
       }
     },
-    "xdg_desktop_portal": {
+    "xdg-desktop-portal": {
       "flake": false,
       "locked": {
-        "lastModified": 1713459645,
-        "narHash": "sha256-o+aO7uGewDPrtgOgmp/CE2uiqiBLyo07pVCFrtlORFQ=",
-        "rev": "11c8a96b147aeae70e3f770313f93b367d53fedd",
-        "revCount": 1820,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/xdg-desktop-portal"
+        "narHash": "sha256-92xAwS6jZGB5Yo3g38ebqnuPkqTMCIYIVHNvmc9WV48=",
+        "type": "file",
+        "url": "https://github.com/flatpak/xdg-desktop-portal.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/xdg-desktop-portal"
+        "type": "file",
+        "url": "https://github.com/flatpak/xdg-desktop-portal.git"
       }
     },
     "xxHash": {
       "flake": false,
       "locked": {
-        "lastModified": 1689933695,
-        "narHash": "sha256-kofPs01jb189LUjYHHt+KxDifZQWl0Hm779711mvWtI=",
-        "rev": "bbb27a5efb85b92a0486cf361a8635715a53f6ba",
-        "revCount": 1709,
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/xxHash"
+        "narHash": "sha256-hfIa69flWLtv7Iw7W24NRMkcguehsZGOEnsl2L/YML4=",
+        "type": "file",
+        "url": "https://github.com/Cyan4973/xxHash.git"
       },
       "original": {
-        "type": "git",
-        "url": "file:./Telegram/ThirdParty/xxHash"
+        "type": "file",
+        "url": "https://github.com/Cyan4973/xxHash.git"
       }
     }
   },
