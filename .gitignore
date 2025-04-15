@@ -52,3 +52,5 @@ stage
 *.*~
 .idea/
 cmake-build-debug/
+
+.ccls-cache

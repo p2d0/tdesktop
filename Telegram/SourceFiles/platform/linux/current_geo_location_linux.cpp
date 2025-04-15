@@ -9,6 +9,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 #include "core/current_geo_location.h"
 #include "base/platform/linux/base_linux_library.h"
+#include <QtGui/QGuiApplication>
 
 #include <gio/gio.h>
 
