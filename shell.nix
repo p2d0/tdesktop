@@ -40,7 +40,8 @@ mkShell rec {
   ];
 
   shellHook = ''
-    alias setup="cmake -GNinja . ${toString CMAKE_FLAGS} -DCMAKE_BUILD_TYPE=RelWithDebInfo"
+    # // alias setup="cmake -GNinja . ${toString CMAKE_FLAGS} -DCMAKE_BUILD_TYPE=RelWithDebInfo"
+    alias setup="cmake -GNinja . ${toString CMAKE_FLAGS} -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O0 -g' -DCMAKE_C_FLAGS_RELEASE='-O0 -g'"
     setQtEnvironment=$(mktemp --suffix .setQtEnvironment.sh)
     echo "shellHook: setQtEnvironment = $setQtEnvironment"
     makeWrapper "/bin/sh" "$setQtEnvironment" "''${qtWrapperArgs[@]}"

@@ -11,7 +11,7 @@ using "ui/widgets/widgets.style";
 using "ui/menu_icons.style";
 using "chat_helpers/chat_helpers.style"; // GroupCallUserpics
 
-msgMaxWidth: 430px;
+msgMaxWidth: 830px;
 msgFont: font(fsize);
 msgNameFont: semiboldFont;
 msgNameStyle: semiboldTextStyle;
@@ -177,7 +177,7 @@ mediaInPaletteSelected: TextPalette(defaultTextPalette) {
 }
 
 minPhotoSize: 100px;
-maxMediaSize: 430px;
+maxMediaSize: 830px;
 maxStickerSize: 224px;
 maxAnimatedEmojiSize: 112px;
 maxGifSize: 320px;

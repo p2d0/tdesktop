@@ -259,13 +259,12 @@ QSize Gif::countThumbSize(int &inOutWidthMax) const {
 		? st::maxVideoMessageSize
 		: st::maxGifSize;
 	const auto size = style::ConvertScale(videoSize());
-
-	if (videoPlayback()) {
-		accumulate_max(maxSize, st::maxMediaSize);
+	if (_data->isVideoMessage() && videoPlayback()) {
+		return { inOutWidthMax, inOutWidthMax };
+	} else {
+		accumulate_min(inOutWidthMax, maxSize);
+		return DownscaledSize(size, { inOutWidthMax, maxSize });
 	}
-
-	accumulate_min(inOutWidthMax, maxSize);
-	return DownscaledSize(size, { inOutWidthMax, maxSize });
 }
 
 QSize Gif::countOptimalSize() {
@@ -326,6 +325,7 @@ QSize Gif::countCurrentSize(int newWidth) {
 		st::minPhotoSize,
 		thumbMaxWidth);
 	auto newHeight = qMax(scaled.height(), st::minPhotoSize);
+    newHeight = qMin(newHeight,scaled.width());
 	if (!activeCurrentStreamed()) {
 		accumulate_max(
 			newWidth,

@@ -125,18 +125,18 @@ stdenv.mkDerivation (finalAttrs: {
   cmakeFlags = [
     # We're allowed to used the API ID of the Snap package:
     # "--config Debug"
-    "-DCMAKE_BUILD_TYPE=Debug"
+    # "-DCMAKE_BUILD_TYPE=Debug"
     (lib.cmakeFeature "TDESKTOP_API_ID" "1870832")
     (lib.cmakeFeature "TDESKTOP_API_HASH" "1cff50b12b773b08f0dd40d11d5a530f")
   ];
-  configurePhase = ''
-cmakeBuildType=Debug
-cmakeConfigurePhase '';
+#   configurePhase = ''
+# cmakeBuildType=Debug
+# cmakeConfigurePhase '';
 
-  dontStrip = true;
-  cmakeBuildType = "Debug";
-  separateDebugInfo = true;
-  CONFIG="Debug";
+  # dontStrip = true;
+  # cmakeBuildType = "Debug";
+  # separateDebugInfo = true;
+  # CONFIG="Debug";
 
   installPhase = lib.optionalString stdenv.hostPlatform.isDarwin ''
     runHook preInstall
