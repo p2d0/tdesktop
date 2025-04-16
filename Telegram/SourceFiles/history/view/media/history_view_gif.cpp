@@ -283,7 +283,9 @@ QSize Gif::countOptimalSize() {
 			? st::historyPhotoBubbleMinWidth
 			: st::minPhotoSize),
 		st::maxMediaSize);
-	auto thumbMaxWidth = st::msgMaxWidth;
+	auto thumbMaxWidth = (_data->isVideoMessage() && videoPlayback()) ?
+      st::maxVideoMessageScaledSize :
+      st::msgMaxWidth;
 	const auto scaled = countThumbSize(thumbMaxWidth);
 	auto maxWidth = std::min(
 		std::max(scaled.width(), minWidth),

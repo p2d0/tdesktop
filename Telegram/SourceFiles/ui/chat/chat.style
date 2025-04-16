@@ -11,7 +11,7 @@ using "ui/widgets/widgets.style";
 using "ui/menu_icons.style";
 using "chat_helpers/chat_helpers.style"; // GroupCallUserpics
 
-msgMaxWidth: 830px;
+msgMaxWidth: 430px;
 msgFont: font(fsize);
 msgNameFont: semiboldFont;
 msgNameStyle: semiboldTextStyle;
@@ -168,11 +168,12 @@ mediaInPaletteSelected: TextPalette(defaultTextPalette) {
 }
 
 minPhotoSize: 100px;
-maxMediaSize: 830px;
+maxMediaSize: 430px;
 maxStickerSize: 224px;
 maxAnimatedEmojiSize: 112px;
 maxGifSize: 320px;
 maxVideoMessageSize: 240px;
+maxVideoMessageScaledSize: 800px;
 maxSignatureSize: 144px;
 maxWallPaperWidth: 160px;
 maxWallPaperHeight: 240px;
