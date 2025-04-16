@@ -37,6 +37,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 #include "data/components/sponsored_messages.h"
 #include "data/data_session.h"
 #include "data/data_user.h"
+#include "data/data_document.h"
 #include "data/data_channel.h"
 #include "data/data_forum_topic.h"
 #include "data/data_message_reactions.h"
@@ -4584,10 +4585,18 @@ int Message::resizeContentGetHeight(int newWidth) {
 		}
 	}
 	accumulate_min(contentWidth, maxWidth());
+	// NOTE the thing that breaks padding for video messages scaling
 	_bubbleWidthLimit = std::max(st::msgMaxWidth, monospaceMaxWidth());
+	auto videoWidth = contentWidth;
 	accumulate_min(contentWidth, int(_bubbleWidthLimit));
 	if (mediaDisplayed) {
-		media->resizeGetHeight(contentWidth);
+		auto document = media->getDocument();
+		if(document && document->isVideoMessage()){
+			media->resizeGetHeight(videoWidth);
+			_bubbleWidthLimit = maxWidth();
+		} else {
+			media->resizeGetHeight(contentWidth);
+		}
 		if (media->width() < contentWidth) {
 			const auto textualWidth = textualMaxWidth();
 			if (media->width() < textualWidth
