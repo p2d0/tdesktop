@@ -34,7 +34,7 @@
   nix-update-script,
 }:
 
-assert pkgs.lib.assertMsg ((self.submodules or true) == true)
+assert pkgs.lib.assertMsg (self.submodules == true)
   "Unable to build without submodules. Append '?submodules=1#' to the URI.";
 
 # Main reference:
