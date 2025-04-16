@@ -34,6 +34,9 @@
   nix-update-script,
 }:
 
+assert pkgs.lib.assertMsg ((self.submodules or true) == true)
+  "Unable to build without submodules. Append '?submodules=1#' to the URI.";
+
 # Main reference:
 # - This package was originally based on the Arch package but all patches are now upstreamed:
 #   https://git.archlinux.org/svntogit/community.git/tree/trunk/PKGBUILD?h=packages/telegram-desktop
