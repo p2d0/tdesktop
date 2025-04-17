@@ -328,7 +328,6 @@ QSize Gif::countCurrentSize(int newWidth) {
 		st::minPhotoSize,
 		thumbMaxWidth);
 	auto newHeight = qMax(scaled.height(), st::minPhotoSize);
-    newHeight = qMin(newHeight,scaled.width());
 	if (!activeCurrentStreamed()) {
 		accumulate_max(
 			newWidth,
