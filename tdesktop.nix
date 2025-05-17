@@ -115,7 +115,7 @@ stdenv.mkDerivation (finalAttrs: {
   #     wrapGAppsHook3
   #   ];
 
-  qtWrapperArgs = lib.optionals (stdenv.hostPlatform.isLinux && false) [
+  qtWrapperArgs = lib.optionals (stdenv.hostPlatform.isLinux) [
     "--prefix"
     "LD_LIBRARY_PATH"
     ":"
