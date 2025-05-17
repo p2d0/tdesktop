@@ -54,3 +54,4 @@ stage
 cmake-build-debug/
 
 .ccls-cache
+.aider*
