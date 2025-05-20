@@ -29,7 +29,7 @@
                  :name "cpptools::Run Configuration"
                  :stopAtEntry :json-false
                  :MIMode "gdb"
-                 :program "telegram-desktop"
+                 :program (s-concat (projectile-project-root) "telegram-desktop")
                  ;; :filterStdout :json-false
                  :debuggerPath "stdenv exec . gdb"
                  ;; :setupCommands (vector
