@@ -1348,10 +1348,10 @@ Suggestions::Suggestions(
 , _recentApps(setupRecentApps())
 , _popularApps(setupPopularApps())
 , _searchQueryTimer([=] { applySearchQuery(); }) {
-	setupTabs();
-	setupChats();
-	setupChannels();
-	setupApps();
+	// setupTabs();
+	// setupChats();
+	// setupChannels();
+	// setupApps();
 }
 
 Suggestions::~Suggestions() = default;
