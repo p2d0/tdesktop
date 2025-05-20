@@ -41,7 +41,7 @@ mkShell rec {
 
   shellHook = ''
     # // alias setup="cmake -GNinja . ${toString CMAKE_FLAGS} -DCMAKE_BUILD_TYPE=RelWithDebInfo"
-    alias setup_debug="cmake -GNinja . ${toString CMAKE_FLAGS}  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS='-gsplit-dwarf -fno-lto' -DCMAKE_C_FLAGS='-gsplit-dwarf -fno-lto' -DCMAKE_EXE_LINKER_FLAGS='-fuse-ld=mold'"
+    alias setup_debug="cmake -GNinja . ${toString CMAKE_FLAGS}  -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS='-gsplit-dwarf -fno-lto' -DCMAKE_C_FLAGS='-gsplit-dwarf -fno-lto' -DCMAKE_EXE_LINKER_FLAGS='-fuse-ld=mold' -DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
     alias setup="cmake -GNinja . ${toString CMAKE_FLAGS} -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O0 -gsplit-dwarf -fno-lto' -DCMAKE_C_FLAGS_RELEASE='-O0 -gsplit-dwarf -fno-lto' -DCMAKE_EXE_LINKER_FLAGS='-fuse-ld=mold'
 "
     setQtEnvironment=$(mktemp --suffix .setQtEnvironment.sh)
