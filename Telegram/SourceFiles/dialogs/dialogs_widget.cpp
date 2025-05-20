@@ -1598,7 +1598,7 @@ void Widget::processSearchFocusChange() {
 }
 
 void Widget::updateSuggestions(anim::type animated) {
-	const auto suggest = (_searchHasFocus || _searchSuggestionsLocked)
+	const auto suggest = false
 		&& !_searchState.inChat
 		&& (_inner->state() == WidgetState::Default);
 	if (anim::Disabled() || !session().data().chatsListLoaded()) {
