@@ -1154,9 +1154,6 @@ void InnerWidget::paintEvent(QPaintEvent *e) {
 							result->sponsored->data.randomId);
 					}
 					const auto peer = result->peer;
-                    if(peer->isChannel()) {
-                        return;
-                    };
 					const auto active = !activeEntry.fullId
 						&& activePeer
 						&& ((peer == activePeer)
