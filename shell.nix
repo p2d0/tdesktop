@@ -20,6 +20,7 @@ mkShell rec {
     tl-expected
     rnnoise
     (callPackage ./tg_owt.nix {})
+    ((callPackage ./tdlib.nix {}).override { tde2eOnly = true;})
     microsoft-gsl
     boost
     ada
@@ -88,6 +89,7 @@ mkShell rec {
     tl-expected
     rnnoise
     (callPackage ./tg_owt.nix {})
+    ((callPackage ./tdlib.nix {}).override { tde2eOnly = true;})
     microsoft-gsl
     boost
     ada

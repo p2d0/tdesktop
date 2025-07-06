@@ -10,6 +10,7 @@
   clang,
   python3,
   tg_owt ? callPackage ./tg_owt.nix { inherit stdenv; },
+  tdlib ? callPackage ./tdlib.nix { inherit stdenv; },
   pkgs,
   lz4,
   xxHash,
@@ -50,7 +51,7 @@ assert pkgs.lib.assertMsg (self.submodules == true)
 # in
 stdenv.mkDerivation (finalAttrs: {
   pname = "telegram-desktop-unwrapped";
-  version = "5.13.1";
+  version = "5.14.3";
 
   src = self;
 
@@ -94,6 +95,7 @@ stdenv.mkDerivation (finalAttrs: {
       tl-expected
       rnnoise
       tg_owt
+      (tdlib.override { tde2eOnly = true;})
       microsoft-gsl
       boost
       ada
