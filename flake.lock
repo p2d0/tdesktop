@@ -1,0 +1,623 @@
+{
+  "nodes": {
+    "GSL": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1729523977,
+        "narHash": "sha256-aWbvjaW7BHF1nYZbhPdBQ2b/UQJOObQSZVuDrJxSIcE=",
+        "rev": "87f9d768866548b5b86e72be66c60c5abd4d9b37",
+        "revCount": 991,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/GSL"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/GSL"
+      }
+    },
+    "QR": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1650168891,
+        "narHash": "sha256-aci5SFBRNRrSub4XVJ2luHNZ2pAUegjgQ6pD9kpkaTY=",
+        "rev": "720f62bddb7226106071d4728c292cb1df519ceb",
+        "revCount": 816,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/QR"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/QR"
+      }
+    },
+    "cld3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1648685455,
+        "narHash": "sha256-C3MOMBUy9jgkT9BAi/Fgm2UH4cxRuwSBEcRl3hzM2Ss=",
+        "rev": "b48dc46512566f5a2d41118c8c1116c4f96dc661",
+        "revCount": 128,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/cld3"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/cld3"
+      }
+    },
+    "cmake": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1741588498,
+        "narHash": "sha256-eSAxd3gBB172G65UW4ok1I8RuknZSdYzK1l/r5sC/1Y=",
+        "rev": "90e6d73100a9fd2dc4c30a270c3bbc1d35924f32",
+        "revCount": 662,
+        "type": "git",
+        "url": "file:./cmake"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./cmake"
+      }
+    },
+    "codegen": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1728632710,
+        "narHash": "sha256-KogLki1mF1gjp97Wry0iaem/JsUoShGGHHlmS6LOhcA=",
+        "rev": "4155b9ae2d4c5a37b9738afa8ef9fa20d8fdcb44",
+        "revCount": 70,
+        "type": "git",
+        "url": "file:./Telegram/codegen"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/codegen"
+      }
+    },
+    "devshell": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1741473158,
+        "narHash": "sha256-kWNaq6wQUbUMlPgw8Y+9/9wP0F8SHkjy24/mN3UAppg=",
+        "owner": "numtide",
+        "repo": "devshell",
+        "rev": "7c9e793ebe66bcba8292989a68c0419b737a22a0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "devshell",
+        "type": "github"
+      }
+    },
+    "dispatch": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1718237582,
+        "narHash": "sha256-S7+fsygaYx5vmdjr5999q7eggNGfFG7ObebMSZuIapk=",
+        "rev": "542b7f32311680b11b6fc8fcb2576955460ba7da",
+        "revCount": 1526,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/dispatch"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/dispatch"
+      }
+    },
+    "expected": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1678876099,
+        "narHash": "sha256-AuRU8VI5l7Th9fJ5jIc/6mPm0Vqbbt6rY8QCCNDOU50=",
+        "rev": "292eff8bd8ee230a7df1d6a1c00c4ea0eb2f0362",
+        "revCount": 226,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/expected"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/expected"
+      }
+    },
+    "fcitx5_qt": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713772689,
+        "narHash": "sha256-ptAJNc7zhXQ+nFfjmVQd5nZvN5lyk0jV6AHBKQkUGOM=",
+        "rev": "c743b12e6780edf1dcfe9071531c80f050cacb95",
+        "revCount": 391,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/fcitx5-qt"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/fcitx5-qt"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "hime": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635042458,
+        "narHash": "sha256-Dgnp+8gMX2/gYFFzk3574/aKAxsMVMp/+HjBCAbFKK0=",
+        "rev": "9b3e6f9ab59d1fe4d9de73d3bf0fed7789f921c5",
+        "revCount": 1273,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/hime"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/hime"
+      }
+    },
+    "hunspell": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702223616,
+        "narHash": "sha256-xbSg6EdZ57wVwZ+vvaA4lFrmawxhgepf3PzXRqSyLho=",
+        "rev": "22c3381e2066bed616250d373fc5c935598b564a",
+        "revCount": 1627,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/hunspell"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/hunspell"
+      }
+    },
+    "jemalloc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1651861705,
+        "narHash": "sha256-bb0OhZVXyvN+hf9BpPSykn5cGm87a0C+Y/iXKt9wTSs=",
+        "rev": "54eaed1d8b56b1aa528be3bdd1877e59c56fa90c",
+        "revCount": 3282,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/jemalloc"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/jemalloc"
+      }
+    },
+    "kcoreaddons": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1714822702,
+        "narHash": "sha256-I8eqyRDWVdj71SJ9OQTTNNedQyZM8BTmXHOOQS0czWg=",
+        "rev": "fd84da51b554eac25e35b1e3f373edaab3029b15",
+        "revCount": 1832,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/kcoreaddons"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/kcoreaddons"
+      }
+    },
+    "kimageformats": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1733161270,
+        "narHash": "sha256-6VBnKiSII+/kz4WbXoV33uF69/MOmg0LMqlmFSq+X10=",
+        "rev": "df82311a1081e576c4ac020204578bb8a81b21ec",
+        "revCount": 536,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/kimageformats"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/kimageformats"
+      }
+    },
+    "lib_base": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1743762155,
+        "narHash": "sha256-tgMBLYbZnJpCq6otUQ5fMSMcOipNEUoC+1GhrUukIvk=",
+        "rev": "720eaf44a529da50f5277fd6874318d9a08b735a",
+        "revCount": 658,
+        "type": "git",
+        "url": "file:./Telegram/lib_base"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_base"
+      }
+    },
+    "lib_crl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1721204705,
+        "narHash": "sha256-lI/Y8rTUsIAiNyyWk5EyQb/HyMrNgZ+QCH05zRgetus=",
+        "rev": "c1d6b0273653095b10b4d0f4f7c30b614b690fd5",
+        "revCount": 31,
+        "type": "git",
+        "url": "file:./Telegram/lib_crl"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_crl"
+      }
+    },
+    "lib_lottie": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1739899634,
+        "narHash": "sha256-vJt9dBhC+uACQV+LySfycYbJYaBOcsFLvs9ycK9eTxM=",
+        "rev": "3eb4a97f1dd038bc4b6bd2884262242382a37e79",
+        "revCount": 67,
+        "type": "git",
+        "url": "file:./Telegram/lib_lottie"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_lottie"
+      }
+    },
+    "lib_qr": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725658314,
+        "narHash": "sha256-fMLjGZj9iuz0F5O8bwmj827fw1GAsXIm2pa4KTcetsQ=",
+        "rev": "6fdf60461444ba150e13ac36009c0ffce72c4c83",
+        "revCount": 11,
+        "type": "git",
+        "url": "file:./Telegram/lib_qr"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_qr"
+      }
+    },
+    "lib_rpl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1731073159,
+        "narHash": "sha256-eqMcYgH/oz7FFqWX5CeGM2CLuHUgZQctnmXB0EIk6Ak=",
+        "rev": "9a3ce435f4054e6cbd45e1c6e3e27cfff515c829",
+        "revCount": 22,
+        "type": "git",
+        "url": "file:./Telegram/lib_rpl"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_rpl"
+      }
+    },
+    "lib_spellcheck": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1739205521,
+        "narHash": "sha256-KlgY20bRbdCLscGfkpGl8yf4yd+7ehEb08glkfs+s38=",
+        "rev": "8809cc72d07087ec61a1e8569de4da95aac45474",
+        "revCount": 233,
+        "type": "git",
+        "url": "file:./Telegram/lib_spellcheck"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_spellcheck"
+      }
+    },
+    "lib_storage": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1720328496,
+        "narHash": "sha256-kQ8ZMGZf3zPovUk+R/QYEmL0fFlGAVzG+PP+VlKPISw=",
+        "rev": "ccdc72548a5065b5991b4e06e610d76bc4f6023e",
+        "revCount": 26,
+        "type": "git",
+        "url": "file:./Telegram/lib_storage"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_storage"
+      }
+    },
+    "lib_tl": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1725003049,
+        "narHash": "sha256-lYWRfutRNeBmDrL6oik9MU7BXvneUv+0ncl54q9/I8o=",
+        "rev": "237cbeb9d1c637759f89a508c1d854caf16e1984",
+        "revCount": 43,
+        "type": "git",
+        "url": "file:./Telegram/lib_tl"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_tl"
+      }
+    },
+    "lib_ui": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1742974055,
+        "narHash": "sha256-BeP6354ZnW8hVCFphu4iI+wCHrndDYfcvKm7Ml2/IMk=",
+        "rev": "a42f0b789c860289adc0b35b65e97bf002f932f1",
+        "revCount": 1600,
+        "type": "git",
+        "url": "file:./Telegram/lib_ui"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_ui"
+      }
+    },
+    "lib_webrtc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1730792258,
+        "narHash": "sha256-EqQmaq10sZBQBqwKj+mMbyWu84eKKMlirkkK5BsmAnY=",
+        "rev": "169ba6b1d5e58e9d1cfa7b7d5c85c119e6c6e2db",
+        "revCount": 109,
+        "type": "git",
+        "url": "file:./Telegram/lib_webrtc"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_webrtc"
+      }
+    },
+    "lib_webview": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1740570785,
+        "narHash": "sha256-fKu65EdB+QvJkV9/Ap4xlslhPWAXmcU0LZ7It6lxFZ0=",
+        "rev": "f546969919a5946d49a504f8159041fa5b55c3df",
+        "revCount": 237,
+        "type": "git",
+        "url": "file:./Telegram/lib_webview"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/lib_webview"
+      }
+    },
+    "libprisma": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713188168,
+        "narHash": "sha256-r6nnuNGeWER4EfU+NjJGifWqCeZzu7oMOMMdOSPp5Dk=",
+        "rev": "23b0d70f9709da9b38561d5706891a134d18df76",
+        "revCount": 17,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/libprisma"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/libprisma"
+      }
+    },
+    "libtgvoip": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1720257778,
+        "narHash": "sha256-DbOVRj3ao+l/Ny1Mn06nS4gqqKB3fU1h4iG2DgZzyxQ=",
+        "rev": "2d2592860478e60d972b96e67ee034b8a71bb57a",
+        "revCount": 339,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/libtgvoip"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/libtgvoip"
+      }
+    },
+    "lz4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660603531,
+        "narHash": "sha256-YiMCD3vvrG+oxBUghSrCmP2LAfAGZrEaKz0YoaQJhpI=",
+        "rev": "5ff839680134437dbf4678f3d0c7b371d84f4964",
+        "revCount": 2867,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/lz4"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/lz4"
+      }
+    },
+    "nimf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1718357103,
+        "narHash": "sha256-cJfIaG5cqpBshO8EH7U93ZSR9NGweJqSUToFy0SAXnc=",
+        "rev": "498ec7ffab3ac140c2469638a14451788f03e798",
+        "revCount": 1082,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/nimf"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/nimf"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1722073938,
+        "narHash": "sha256-OpX0StkL8vpXyWOGUD6G+MA26wAXK6SpT94kLJXo6B4=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "e36e9f57337d0ff0cf77aceb58af4c805472bfae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1743827369,
+        "narHash": "sha256-rpqepOZ8Eo1zg+KJeWoq1HAOgoMCDloqv5r2EAa9TSA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "42a1c966be226125b48c384171c44c651c236c22",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "ref": "nixos-unstable",
+        "type": "indirect"
+      }
+    },
+    "range_v3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1655847311,
+        "narHash": "sha256-H8juKleiN/27b5zKl7o310ZUwwmmpr4cUJuJRMgXK4Y=",
+        "rev": "a81477931a8aa2ad025c6bda0609f38e09e4d7ec",
+        "revCount": 2494,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/range-v3"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/range-v3"
+      }
+    },
+    "rlottie": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1637941077,
+        "narHash": "sha256-kRhKe/ZXLrcbDwoELdLkDc1Lqtsgl26rT711Y/V4/JE=",
+        "rev": "8c69fc20cf2e150db304311f1233a4b55a8892d7",
+        "revCount": 678,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/rlottie"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/rlottie"
+      }
+    },
+    "root": {
+      "inputs": {
+        "GSL": "GSL",
+        "QR": "QR",
+        "cld3": "cld3",
+        "cmake": "cmake",
+        "codegen": "codegen",
+        "devshell": "devshell",
+        "dispatch": "dispatch",
+        "expected": "expected",
+        "fcitx5_qt": "fcitx5_qt",
+        "flake-utils": "flake-utils",
+        "hime": "hime",
+        "hunspell": "hunspell",
+        "jemalloc": "jemalloc",
+        "kcoreaddons": "kcoreaddons",
+        "kimageformats": "kimageformats",
+        "lib_base": "lib_base",
+        "lib_crl": "lib_crl",
+        "lib_lottie": "lib_lottie",
+        "lib_qr": "lib_qr",
+        "lib_rpl": "lib_rpl",
+        "lib_spellcheck": "lib_spellcheck",
+        "lib_storage": "lib_storage",
+        "lib_tl": "lib_tl",
+        "lib_ui": "lib_ui",
+        "lib_webrtc": "lib_webrtc",
+        "lib_webview": "lib_webview",
+        "libprisma": "libprisma",
+        "libtgvoip": "libtgvoip",
+        "lz4": "lz4",
+        "nimf": "nimf",
+        "nixpkgs": "nixpkgs_2",
+        "range_v3": "range_v3",
+        "rlottie": "rlottie",
+        "tgcalls": "tgcalls",
+        "xdg_desktop_portal": "xdg_desktop_portal",
+        "xxHash": "xxHash"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "tgcalls": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1722059009,
+        "narHash": "sha256-1buPF7wRdorEM5m4YpH4kaUhzWsDuG5Si1kiHoIaptw=",
+        "rev": "9bf4065ea00cbed5e63cec348457ed13143459d0",
+        "revCount": 1007,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/tgcalls"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/tgcalls"
+      }
+    },
+    "xdg_desktop_portal": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1713459645,
+        "narHash": "sha256-o+aO7uGewDPrtgOgmp/CE2uiqiBLyo07pVCFrtlORFQ=",
+        "rev": "11c8a96b147aeae70e3f770313f93b367d53fedd",
+        "revCount": 1820,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/xdg-desktop-portal"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/xdg-desktop-portal"
+      }
+    },
+    "xxHash": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1689933695,
+        "narHash": "sha256-kofPs01jb189LUjYHHt+KxDifZQWl0Hm779711mvWtI=",
+        "rev": "bbb27a5efb85b92a0486cf361a8635715a53f6ba",
+        "revCount": 1709,
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/xxHash"
+      },
+      "original": {
+        "type": "git",
+        "url": "file:./Telegram/ThirdParty/xxHash"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

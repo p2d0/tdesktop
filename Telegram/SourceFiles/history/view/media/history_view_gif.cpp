@@ -253,12 +253,17 @@ QSize Gif::sizeForAspectRatio() const {
 }
 
 QSize Gif::countThumbSize(int &inOutWidthMax) const {
-	const auto maxSize = _data->isVideoFile()
+	auto maxSize = _data->isVideoFile()
 		? st::maxMediaSize
 		: _data->isVideoMessage()
 		? st::maxVideoMessageSize
 		: st::maxGifSize;
 	const auto size = style::ConvertScale(videoSize());
+
+	if (videoPlayback()) {
+		accumulate_max(maxSize, st::maxMediaSize);
+	}
+
 	accumulate_min(inOutWidthMax, maxSize);
 	return DownscaledSize(size, { inOutWidthMax, maxSize });
 }
