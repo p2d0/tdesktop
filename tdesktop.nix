@@ -52,7 +52,7 @@ assert pkgs.lib.assertMsg (self.submodules == true)
 # in
 stdenv.mkDerivation (finalAttrs: {
   pname = "telegram-desktop-unwrapped";
-  version = "5.14.3";
+  version = "6.1.3";
 
   src = self;
 
