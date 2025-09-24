@@ -1,0 +1,53 @@
+diff --git a/webview/platform/linux/webview_linux_http_server.cpp b/webview/platform/linux/webview_linux_http_server.cpp
+index 5439d2b..8a7c80e 100644
+--- a/webview/platform/linux/webview_linux_http_server.cpp
++++ b/webview/platform/linux/webview_linux_http_server.cpp
+@@ -153,7 +153,7 @@ bool HttpServer::Private::processRedirect(
+ 		socket->write("Cache-Control: no-store\r\n");
+ 		socket->write("\r\n");
+ 		socket->write(input);
+-	}, Qt::SingleShotConnection);
++	}, Qt::DirectConnection);
+ 
+ 	return true;
+ }
+@@ -179,7 +179,7 @@ HttpServer::HttpServer(
+ 
+ 			connect(socket, &QIODevice::readyRead, this, [=] {
+ 				_private->handleRequest(socket);
+-			}, Qt::SingleShotConnection);
++			}, Qt::DirectConnection);
+ 		}
+ 	});
+ }
+diff --git a/webview/platform/linux/webview_linux_webkitgtk.cpp b/webview/platform/linux/webview_linux_webkitgtk.cpp
+index 5027a4c..bbd53bc 100644
+--- a/webview/platform/linux/webview_linux_webkitgtk.cpp
++++ b/webview/platform/linux/webview_linux_webkitgtk.cpp
+@@ -716,21 +716,21 @@ void Instance::dataRequest(
+ 		socket->write("HTTP/1.1 ");
+ 		socket->write(partial ? "206 Partial Content\r\n" : "200 OK\r\n");
+ 
+-		const auto mime = QByteArray(stream->mime());
++		const auto mime = QByteArray::fromStdString(stream->mime());
+ 		socket->write("Content-Type: " + mime + "\r\n");
+ 		socket->write("Accept-Ranges: bytes\r\n");
+ 		socket->write("Cache-Control: no-store\r\n");
+ 		socket->write("Content-Length: "
+-			+ QByteArray::number(requestedLimit)
++					  + QByteArray::number(static_cast<qlonglong>(requestedLimit))
+ 			+ "\r\n");
+ 
+ 		if (partial) {
+ 			socket->write("Content-Range: bytes "
+-				+ QByteArray::number(requestedOffset)
++						  + QByteArray::number(static_cast<qlonglong>(requestedOffset))
+ 				+ '-'
+-				+ QByteArray::number(requestedOffset + requestedLimit - 1)
++						  + QByteArray::number(static_cast<qlonglong>(requestedOffset + requestedLimit - 1))
+ 				+ '/'
+-				+ QByteArray::number(total)
++						  + QByteArray::number(static_cast<qlonglong>(total))
+ 				+ "\r\n");
+ 		}
+ 

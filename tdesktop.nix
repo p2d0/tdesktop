@@ -4,6 +4,7 @@
   stdenv,
   fetchFromGitHub,
   callPackage,
+  git,
   pkg-config,
   cmake,
   ninja,
@@ -57,12 +58,9 @@ stdenv.mkDerivation (finalAttrs: {
 
   postPatch = lib.optionalString stdenv.hostPlatform.isLinux ''
     sed -i '8i#include <cstring>' Telegram/lib_tl/tl/tl_basic_types.h
-    substituteInPlace Telegram/ThirdParty/libtgvoip/os/linux/AudioInputALSA.cpp \
-      --replace-fail '"libasound.so.2"' '"${lib.getLib alsa-lib}/lib/libasound.so.2"'
-    substituteInPlace Telegram/ThirdParty/libtgvoip/os/linux/AudioOutputALSA.cpp \
-      --replace-fail '"libasound.so.2"' '"${lib.getLib alsa-lib}/lib/libasound.so.2"'
-    substituteInPlace Telegram/ThirdParty/libtgvoip/os/linux/AudioPulse.cpp \
-      --replace-fail '"libpulse.so.0"' '"${lib.getLib libpulseaudio}/lib/libpulse.so.0"'
+    cd Telegram/lib_webview
+    ${git}/bin/git apply ../../webview.patch
+    cd ../..
   '';
 
   nativeBuildInputs =

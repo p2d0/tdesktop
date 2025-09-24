@@ -9,6 +9,7 @@ https://github.com/telegramdesktop/tdesktop/blob/master/LEGAL
 
 #include "base/algorithm.h"
 #include "base/basic_types.h"
+#include <cmath>
 
 class MTPstarsAmount;
 
